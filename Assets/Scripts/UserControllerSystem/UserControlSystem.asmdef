@@ -1,0 +1,20 @@
+{
+
+    "name": "UserControlSystem",
+    "optionalUnityReferences": [ "TestAssemblies" ],
+    "rootNamespace": "",
+    "references": [
+        "GUID:d2392b44734a34e4b862f389389e3f1a",
+        "GUID:820bfb045d9804846804cc5bfa7d206d",
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
