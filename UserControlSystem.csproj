@@ -58,8 +58,8 @@
     <Analyzer Include="D:\Unity Editor\2022.3.4f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\UserControllerSystem\UI\Presenter\BottomLeftUi.cs" />
-    <Compile Include="Assets\Scripts\UserControllerSystem\UI\Presenter\MouseInteractionPresenter.cs" />
+    <Compile Include="Assets\Scripts\UserControllerSystem\ProduceUnitCommandHeir.cs" />
+    <Compile Include="Assets\Scripts\UserControllerSystem\ProduceUnitCommand.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Scripts\UserControllerSystem\UserControlSystem.asmdef" />
@@ -722,6 +722,10 @@
     <ProjectReference Include="Abstraction.csproj">
       <Project>{D718AA7B-5E03-E889-C331-F3CCC74DD675}</Project>
       <Name>Abstraction</Name>
+    </ProjectReference>
+    <ProjectReference Include="Utils.csproj">
+      <Project>{6710C464-6040-F1C3-0815-1DC1D01FF398}</Project>
+      <Name>Utils</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

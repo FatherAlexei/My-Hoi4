@@ -58,7 +58,9 @@
     <Analyzer Include="D:\Unity Editor\2022.3.4f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\UserControllerSystem\UI\Presenter\OutlineSelectorPresenter.cs" />
     <Compile Include="Assets\Scripts\UserControllerSystem\UI\Presenter\BottomLeftUi.cs" />
+    <Compile Include="Assets\Scripts\UserControllerSystem\UI\Presenter\CommandButtonsPresenter.cs" />
     <Compile Include="Assets\Scripts\UserControllerSystem\UI\Presenter\MouseInteractionPresenter.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -749,6 +751,10 @@
       <Project>{953C18F4-3D4B-42D5-76C7-0118ACAE8EBC}</Project>
       <Name>Model</Name>
     </ProjectReference>
+    <ProjectReference Include="View.csproj">
+      <Project>{1B214C4A-5B62-C1A0-40BE-9DDBAB4B5421}</Project>
+      <Name>View</Name>
+    </ProjectReference>
     <ProjectReference Include="Abstraction.csproj">
       <Project>{D718AA7B-5E03-E889-C331-F3CCC74DD675}</Project>
       <Name>Abstraction</Name>
@@ -756,6 +762,14 @@
     <ProjectReference Include="Outline.csproj">
       <Project>{D7ACF028-3C7A-8FAC-75FD-AE5FA9DF9AB4}</Project>
       <Name>Outline</Name>
+    </ProjectReference>
+    <ProjectReference Include="UserControlSystem.csproj">
+      <Project>{0996D083-60A9-54B7-C633-9AC0DF27242F}</Project>
+      <Name>UserControlSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="Utils.csproj">
+      <Project>{6710C464-6040-F1C3-0815-1DC1D01FF398}</Project>
+      <Name>Utils</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

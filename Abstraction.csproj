@@ -58,8 +58,15 @@
     <Analyzer Include="D:\Unity Editor\2022.3.4f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Abstraction\IUnitProducer.cs" />
+    <Compile Include="Assets\Scripts\Abstraction\Commands\CommandsInterfaces\IProduceUnitCommand.cs" />
+    <Compile Include="Assets\Scripts\Abstraction\Commands\CommandsInterfaces\IStopCommand .cs" />
+    <Compile Include="Assets\Scripts\Abstraction\Commands\CommandExecuterBase.cs" />
+    <Compile Include="Assets\Scripts\Abstraction\Commands\CommandsInterfaces\IMoveCommand.cs" />
+    <Compile Include="Assets\Scripts\Abstraction\Commands\CommandsInterfaces\IPatrolCommand.cs" />
+    <Compile Include="Assets\Scripts\Abstraction\Commands\CommandsInterfaces\IAttackCommand.cs" />
     <Compile Include="Assets\Scripts\Abstraction\ISelectable.cs" />
+    <Compile Include="Assets\Scripts\Abstraction\Commands\IComandExecuter.cs" />
+    <Compile Include="Assets\Scripts\Abstraction\Commands\ICommand.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Scripts\Abstraction\Abstraction.asmdef" />

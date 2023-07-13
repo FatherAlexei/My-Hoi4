@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace Abstractions
 {
-    public interface ISelectables : IEnumerable
+    public interface ISelectables
     {
         float Health { get; }
         float MaxHealth { get; }
