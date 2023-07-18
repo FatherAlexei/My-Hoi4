@@ -58,7 +58,17 @@
     <Analyzer Include="D:\Unity Editor\2022.3.4f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\UserControllerSystem\UI\Model\CommandCreators\StopCommandCommandCreator.cs" />
+    <Compile Include="Assets\Scripts\UserControllerSystem\UI\Model\CommandCreators\MoveCommandCommandCreator.cs" />
+    <Compile Include="Assets\Scripts\UserControllerSystem\UI\Model\CommandCreators\AttackCommandCommandCreator.cs" />
     <Compile Include="Assets\Scripts\UserControllerSystem\UI\Model\SelectableValue.cs" />
+    <Compile Include="Assets\Scripts\UserControllerSystem\UI\Model\CommandCreators\ProduceUnitCommandCommandCreator.cs" />
+    <Compile Include="Assets\Scripts\UserControllerSystem\UI\Model\Vector3Value.cs" />
+    <Compile Include="Assets\Scripts\UserControllerSystem\UI\Model\CommandCreators\CommandCreatorBase.cs" />
+    <Compile Include="Assets\Scripts\UserControllerSystem\UI\Model\UiModelInstaller.cs" />
+    <Compile Include="Assets\Scripts\UserControllerSystem\UI\Model\CommandButtonsModel.cs" />
+    <Compile Include="Assets\Scripts\UserControllerSystem\UI\Model\CommandCreators\PatrolCommandCommandCreator.cs" />
+    <Compile Include="Assets\Scripts\UserControllerSystem\UI\Model\ScriptableValue.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Scripts\UserControllerSystem\UI\Model\Model.asmdef" />
@@ -325,6 +335,9 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>D:\Unity Editor\2022.3.4f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="Zenject-usage">
+      <HintPath>Assets\Plugins\Zenject\Source\Usage\Zenject-usage.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.YamlDotNet">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
     </Reference>
@@ -337,20 +350,32 @@
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="Zenject.ReflectionBaking.Mono.Cecil.Pdb">
+      <HintPath>Assets\Plugins\Zenject\OptionalExtras\ReflectionBaking\Lib\Zenject.ReflectionBaking.Mono.Cecil.Pdb.dll</HintPath>
+    </Reference>
     <Reference Include="log4netPlastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.IonicZip">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
     </Reference>
+    <Reference Include="Zenject.ReflectionBaking.Mono.Cecil.Rocks">
+      <HintPath>Assets\Plugins\Zenject\OptionalExtras\ReflectionBaking\Lib\Zenject.ReflectionBaking.Mono.Cecil.Rocks.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Zenject.ReflectionBaking.Mono.Cecil.Mdb">
+      <HintPath>Assets\Plugins\Zenject\OptionalExtras\ReflectionBaking\Lib\Zenject.ReflectionBaking.Mono.Cecil.Mdb.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@2.0.5\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+    </Reference>
+    <Reference Include="Zenject.ReflectionBaking.Mono.Cecil">
+      <HintPath>Assets\Plugins\Zenject\OptionalExtras\ReflectionBaking\Lib\Zenject.ReflectionBaking.Mono.Cecil.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>D:\Unity Editor\2022.3.4f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -744,6 +769,18 @@
     <ProjectReference Include="Abstraction.csproj">
       <Project>{D718AA7B-5E03-E889-C331-F3CCC74DD675}</Project>
       <Name>Abstraction</Name>
+    </ProjectReference>
+    <ProjectReference Include="Utils.csproj">
+      <Project>{6710C464-6040-F1C3-0815-1DC1D01FF398}</Project>
+      <Name>Utils</Name>
+    </ProjectReference>
+    <ProjectReference Include="UserControlSystem.csproj">
+      <Project>{0996D083-60A9-54B7-C633-9AC0DF27242F}</Project>
+      <Name>UserControlSystem</Name>
+    </ProjectReference>
+    <ProjectReference Include="Zenject.csproj">
+      <Project>{B942EA8B-24EF-D2A8-D111-C5FF5AF7F968}</Project>
+      <Name>Zenject</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

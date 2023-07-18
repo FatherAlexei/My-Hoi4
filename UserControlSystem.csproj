@@ -58,8 +58,16 @@
     <Analyzer Include="D:\Unity Editor\2022.3.4f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< Updated upstream
     <Compile Include="Assets\Scripts\UserControllerSystem\UI\Presenter\BottomLeftUi.cs" />
     <Compile Include="Assets\Scripts\UserControllerSystem\UI\Presenter\MouseInteractionPresenter.cs" />
+=======
+    <Compile Include="Assets\Scripts\UserControllerSystem\PatrolCommand.cs" />
+    <Compile Include="Assets\Scripts\UserControllerSystem\MoveCommand.cs" />
+    <Compile Include="Assets\Scripts\UserControllerSystem\StopCommand.cs" />
+    <Compile Include="Assets\Scripts\UserControllerSystem\ProduceUnitCommand.cs" />
+    <Compile Include="Assets\Scripts\UserControllerSystem\AttackCommand.cs" />
+>>>>>>> Stashed changes
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Scripts\UserControllerSystem\UserControlSystem.asmdef" />
