@@ -3,10 +3,10 @@ using UnityEngine;
 
 namespace Abstractions
 {
-    public interface ISelectables : IEnumerable
+    public interface ISelectables : IHealthHolder
     {
-        float Health { get; }
-        float MaxHealth { get; }
+        Transform PivotPoint { get; }
         Sprite Icon { get; }
+
     }
 }

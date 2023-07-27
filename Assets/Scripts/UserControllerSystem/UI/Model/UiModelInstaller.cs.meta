@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 02a0444bc05a3d64cb1784303f398ea7
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _legacyContext: {fileID: 11400000, guid: 917af1c4fa63a384190f52d89281f71f, type: 2}
+  - _vector3Value: {fileID: 11400000, guid: a2a8cc3d920cf0047821a32460e9c74f, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

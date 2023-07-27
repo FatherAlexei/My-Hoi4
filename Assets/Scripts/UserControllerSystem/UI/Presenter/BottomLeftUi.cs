@@ -1,9 +1,11 @@
 using Abstractions;
+using System;
 using TMPro;
+using UniRx;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.UI;
-
-
+using Zenject;
 
 namespace UserControlSystem
 {
@@ -15,14 +17,13 @@ namespace UserControlSystem
         [SerializeField] private Image _sliderBackground;
         [SerializeField] private Image _sliderFillImage;
 
-        [SerializeField] private SelectableValue _selectedValue;
-
+        [Inject] private IObservable<ISelectables> _selectedValues;
         private void Start()
         {
-            _selectedValue.OnSelected += onSelected;
-            onSelected(_selectedValue.CurrentValue);
+            _selectedValues.Subscribe(onSelected);
         }
-            
+
+
         private void onSelected(ISelectables selected)  
         {
             _selectedImage.enabled = selected != null;
