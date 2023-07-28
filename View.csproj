@@ -59,6 +59,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\UserControllerSystem\UI\View\OutlineSelector.cs" />
+    <Compile Include="Assets\Scripts\UserControllerSystem\UI\View\BottomCenterView.cs" />
+    <Compile Include="Assets\Scripts\UserControllerSystem\UI\View\UIViewInstaller.cs" />
     <Compile Include="Assets\Scripts\UserControllerSystem\UI\View\CommandButtonsView.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -749,6 +751,9 @@
     <Reference Include="System.Xml.Serialization">
       <HintPath>D:\Unity Editor\2022.3.4f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
@@ -764,6 +769,18 @@
     <ProjectReference Include="Abstraction.csproj">
       <Project>{D718AA7B-5E03-E889-C331-F3CCC74DD675}</Project>
       <Name>Abstraction</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniRx.csproj">
+      <Project>{3044B20C-0FFE-C13B-4003-8EDE6D848A20}</Project>
+      <Name>UniRx</Name>
+    </ProjectReference>
+    <ProjectReference Include="Zenject.csproj">
+      <Project>{B942EA8B-24EF-D2A8-D111-C5FF5AF7F968}</Project>
+      <Name>Zenject</Name>
+    </ProjectReference>
+    <ProjectReference Include="Core.csproj">
+      <Project>{BDFDD1DD-54B0-91F5-691C-AFEB3293F9EC}</Project>
+      <Name>Core</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

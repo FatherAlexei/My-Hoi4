@@ -60,6 +60,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\UserControllerSystem\UI\Presenter\OutlineSelectorPresenter.cs" />
     <Compile Include="Assets\Scripts\UserControllerSystem\UI\Presenter\BottomLeftUi.cs" />
+    <Compile Include="Assets\Scripts\UserControllerSystem\UI\Presenter\BottomCenterPresenter.cs" />
     <Compile Include="Assets\Scripts\UserControllerSystem\UI\Presenter\MenuPresenter.cs" />
     <Compile Include="Assets\Scripts\UserControllerSystem\UI\Presenter\CommandButtonsPresenter.cs" />
     <Compile Include="Assets\Scripts\UserControllerSystem\UI\Presenter\TopPanelPresenter.cs" />

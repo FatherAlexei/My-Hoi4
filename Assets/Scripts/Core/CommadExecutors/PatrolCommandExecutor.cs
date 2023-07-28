@@ -1,9 +1,10 @@
 using Abstractions.Commands;
 using UnityEngine;
-public class PatrolCommandExecutor : CommandExecuterBase<IPatrolCommand>
+public class PatrolCommandExecutor : ICommandExecuter<IPatrolCommand>
 {
-    public override void ExecuteSpecificCommand(IPatrolCommand command)
+
+    public override void ExecuteCommand(IPatrolCommand command)
     {
-        Debug.Log($"{name} patroling!");
+        Debug.Log($"name patroling!");
     }
 }

@@ -67,6 +67,8 @@
     <Compile Include="Assets\Scripts\Utils\UniRxExtensions.cs" />
     <Compile Include="Assets\Scripts\Utils\AssetsContext.cs" />
     <Compile Include="Assets\Scripts\Utils\AssetsInjector.cs" />
+    <Compile Include="Assets\Scripts\Utils\CollisionDetector.cs" />
+    <Compile Include="Assets\Scripts\Utils\CommandExecutorsInstaller.cs" />
     <Compile Include="Assets\Scripts\Utils\StatefulScriptableObjectValueBase.cs" />
     <Compile Include="Assets\Scripts\Utils\ScriptableValue.cs" />
   </ItemGroup>
@@ -769,6 +771,14 @@
     <ProjectReference Include="UniRx.csproj">
       <Project>{3044B20C-0FFE-C13B-4003-8EDE6D848A20}</Project>
       <Name>UniRx</Name>
+    </ProjectReference>
+    <ProjectReference Include="Zenject.csproj">
+      <Project>{B942EA8B-24EF-D2A8-D111-C5FF5AF7F968}</Project>
+      <Name>Zenject</Name>
+    </ProjectReference>
+    <ProjectReference Include="Abstraction.csproj">
+      <Project>{D718AA7B-5E03-E889-C331-F3CCC74DD675}</Project>
+      <Name>Abstraction</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

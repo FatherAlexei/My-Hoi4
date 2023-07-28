@@ -60,11 +60,13 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\UserControllerSystem\UI\Model\CommandCreators\StopCommandCommandCreator.cs" />
     <Compile Include="Assets\Scripts\UserControllerSystem\UI\Model\CommandCreators\MoveCommandCommandCreator.cs" />
+    <Compile Include="Assets\Scripts\UserControllerSystem\UI\Model\BottomCenterModel.cs" />
     <Compile Include="Assets\Scripts\UserControllerSystem\UI\Model\CommandCreators\AttackCommandCommandCreator.cs" />
     <Compile Include="Assets\Scripts\UserControllerSystem\UI\Model\SelectableValue.cs" />
     <Compile Include="Assets\Scripts\UserControllerSystem\UI\Model\CommandCreators\ProduceUnitCommandCommandCreator.cs" />
     <Compile Include="Assets\Scripts\UserControllerSystem\UI\Model\Vector3Value.cs" />
     <Compile Include="Assets\Scripts\UserControllerSystem\UI\Model\CommandCreators\CommandCreatorBase.cs" />
+    <Compile Include="Assets\Scripts\UserControllerSystem\UI\Model\CommandCreators\SetRallyPointCommandCreator.cs" />
     <Compile Include="Assets\Scripts\UserControllerSystem\UI\Model\CommandCreators\CancellableCommandCreatorBase.cs" />
     <Compile Include="Assets\Scripts\UserControllerSystem\UI\Model\UiModelInstaller.cs" />
     <Compile Include="Assets\Scripts\UserControllerSystem\UI\Model\CommandButtonsModel.cs" />
@@ -782,6 +784,10 @@
     <ProjectReference Include="Utils.csproj">
       <Project>{6710C464-6040-F1C3-0815-1DC1D01FF398}</Project>
       <Name>Utils</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniRx.csproj">
+      <Project>{3044B20C-0FFE-C13B-4003-8EDE6D848A20}</Project>
+      <Name>UniRx</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

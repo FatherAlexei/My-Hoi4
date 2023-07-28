@@ -36,7 +36,9 @@ public class CommandButtonsPresenter : MonoBehaviour
             var commandExecutors = new List<ICommandExecuter>();
             commandExecutors.AddRange((selectable as
             Component).GetComponentsInParent<ICommandExecuter>());
-            _view.MakeLayout(commandExecutors);
+            var queue = (selectable as Component).GetComponentInParent<ICommandsQueue>();
+            _view.MakeLayout(commandExecutors, queue);
+
         }
     }
 }

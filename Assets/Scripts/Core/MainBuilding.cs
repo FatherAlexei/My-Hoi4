@@ -4,9 +4,10 @@ using Abstractions.Commands;
 using System;
 using Random = UnityEngine.Random;
 
-public sealed class MainBuilding : CommandExecuterBase<IProduceUnitCommand>, ISelectables
+public sealed class MainBuilding : ICommandExecuter<IProduceUnitCommand>, ISelectables
 {
-        public float Health => _health;
+    public Vector3 RallyPoint { get; set; }
+    public float Health => _health;
         public float MaxHealth => _maxHealth;
         public Sprite Icon => _icon;
 
@@ -20,8 +21,7 @@ public sealed class MainBuilding : CommandExecuterBase<IProduceUnitCommand>, ISe
          private float _health = 1000;
         public override void ExecuteSpecificCommand(IProduceUnitCommand command)
         {
-            Instantiate(command.UnitPrefab, new Vector3(_unitsParent.position.x + Random.Range(-10, 10), 0, _unitsParent.position.z +
-            Random.Range(-10, 10)), Quaternion.identity, _unitsParent);
+
         }
 
 

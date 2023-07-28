@@ -6,8 +6,8 @@ using UnityEngine;
 using UnityEngine.UI;
 public class CommandButtonsView : MonoBehaviour
 {
-    public Action<ICommandExecuter> OnClick;
-[SerializeField] private GameObject _attackButton;
+    public Action<ICommandExecuter, ICommandsQueue> OnClick;
+    [SerializeField] private GameObject _attackButton;
     [SerializeField] private GameObject _moveButton;
     [SerializeField] private GameObject _patrolButton;
     [SerializeField] private GameObject _stopButton;
@@ -17,19 +17,19 @@ public class CommandButtonsView : MonoBehaviour
     {
         _buttonsByExecutorType = new Dictionary<Type, GameObject>();
         _buttonsByExecutorType
-        .Add(typeof(CommandExecuterBase<IAttackCommand>),
+        .Add(typeof(ICommandExecuter<IAttackCommand>),
         _attackButton);
         _buttonsByExecutorType
-        .Add(typeof(CommandExecuterBase<IMoveCommand>),
+        .Add(typeof(ICommandExecuter<IMoveCommand>),
         _moveButton);
         _buttonsByExecutorType
-        .Add(typeof(CommandExecuterBase<IPatrolCommand>),
+        .Add(typeof(ICommandExecuter<IPatrolCommand>),
         _patrolButton);
         _buttonsByExecutorType
-        .Add(typeof(CommandExecuterBase<IStopCommand>),
+        .Add(typeof(ICommandExecuter<IStopCommand>),
         _stopButton);
         _buttonsByExecutorType
-        .Add(typeof(CommandExecuterBase<IProduceUnitCommand>),
+        .Add(typeof(ICommandExecuter<IProduceUnitCommand>),
         _produceUnitButton);
     }
     public void BlockInteractions(ICommandExecuter ce)
@@ -48,7 +48,8 @@ public class CommandButtonsView : MonoBehaviour
         _produceUnitButton.GetComponent<Selectable>().interactable =
         value;
     }
-public void MakeLayout(IEnumerable<ICommandExecuter> commandExecutors)
+    public void MakeLayout(IEnumerable<ICommandExecuter> commandExecutors,
+    ICommandsQueue queue)
     {
         foreach (var currentExecutor in commandExecutors)
         {
@@ -56,8 +57,7 @@ public void MakeLayout(IEnumerable<ICommandExecuter> commandExecutors)
             getButtonGameObjectByType(currentExecutor.GetType());
             buttonGameObject.SetActive(true);
             var button = buttonGameObject.GetComponent<Button>();
-            button.onClick.AddListener(() =>
-            OnClick?.Invoke(currentExecutor));
+            button.onClick.AddListener(() => OnClick?.Invoke(currentExecutor, queue));
         }
     }
     private GameObject getButtonGameObjectByType(Type executorInstanceType)

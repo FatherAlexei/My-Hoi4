@@ -2,7 +2,12 @@ namespace Abstractions.Commands
 {
     public interface ICommandExecuter
     {
-        void ExecuteCommand(object command);
+        void ExecuteSpecificCommand(object command);
             
     }
+
+    public interface ICommandExecuter<T> : ICommandExecuter where T : ICommand
+    {
+    }
+
 }

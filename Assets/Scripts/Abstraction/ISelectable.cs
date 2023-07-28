@@ -3,10 +3,8 @@ using UnityEngine;
 
 namespace Abstractions
 {
-    public interface ISelectables : IHealthHolder
+    public interface ISelectables : IHealthHolder, IIconHolder
     {
         Transform PivotPoint { get; }
-        Sprite Icon { get; }
-
     }
 }

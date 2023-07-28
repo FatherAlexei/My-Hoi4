@@ -3,7 +3,12 @@ guid: 976015378ca3aaf4d8896f47d9dcd0b5
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - _legacyContext: {instanceID: 0}
+  - _groundClicksRMB: {instanceID: 0}
+  - _attackableClicksRMB: {instanceID: 0}
+  - _selectables: {instanceID: 0}
+  - _chomperSprite: {fileID: 21300000, guid: 3594a2e87ae11da469b231324ec3f006, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

@@ -14,7 +14,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5869798281925899127, guid: 4335dedff87c91c4aa2397da7cf26b6e, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 5869798281925899127, guid: 4335dedff87c91c4aa2397da7cf26b6e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -69,6 +69,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5869798281925865303, guid: 4335dedff87c91c4aa2397da7cf26b6e, type: 3}
       insertIndex: -1
       addedObject: {fileID: -1353487702958534658}
+    - targetCorrespondingSourceObject: {fileID: 5869798281925865303, guid: 4335dedff87c91c4aa2397da7cf26b6e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1148336226841496313}
   m_SourcePrefab: {fileID: 100100000, guid: 4335dedff87c91c4aa2397da7cf26b6e, type: 3}
 --- !u!1 &1264073553729666592 stripped
 GameObject:
@@ -87,10 +90,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32d70a5850a649b4e89e14a8435074a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _unitPrefab: {fileID: 6926229422413163746, guid: 11266fcb83aea1e478dca65336a98d1e, type: 3}
   _unitsParent: {fileID: 0}
   _maxHealth: 1000
   _icon: {fileID: 21300000, guid: 622c0d83c4b14934bb30a8a2da59b87e, type: 3}
+  _pivot: {fileID: 0}
 --- !u!114 &6104904650382476940
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -103,8 +106,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e38ca28004aaedd48ac4ad3b143b3fbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _objects: []
-  _outlineSelector: {fileID: 0}
 --- !u!65 &-1353487702958534658
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -126,3 +127,17 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 3, y: 5, z: 3}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1148336226841496313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1264073553729666592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0737bb61c6f42ab46897a270c8f69374, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _unitsParent: {fileID: 0}
+  _maximumUnitsInQueue: 6
