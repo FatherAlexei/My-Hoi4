@@ -63,6 +63,7 @@
     <Compile Include="Assets\Scripts\UserControllerSystem\UI\Presenter\BottomCenterPresenter.cs" />
     <Compile Include="Assets\Scripts\UserControllerSystem\UI\Presenter\MenuPresenter.cs" />
     <Compile Include="Assets\Scripts\UserControllerSystem\UI\Presenter\CommandButtonsPresenter.cs" />
+    <Compile Include="Assets\Scripts\UserControllerSystem\UI\Presenter\GameOverScreenPresenter.cs" />
     <Compile Include="Assets\Scripts\UserControllerSystem\UI\Presenter\TopPanelPresenter.cs" />
     <Compile Include="Assets\Scripts\UserControllerSystem\UI\Presenter\MouseInteractionPresenter.cs" />
   </ItemGroup>

@@ -113,8 +113,8 @@
     <Compile Include="Assets\Plugins\Zenject\Source\Providers\GetterProvider.cs" />
     <Compile Include="Assets\Plugins\Zenject\Source\Main\IInstantiator.cs" />
     <Compile Include="Assets\Plugins\Zenject\Source\Binding\BindInfo\FactoryBindInfo.cs" />
-    <Compile Include="Assets\Plugins\Zenject\Source\Internal\PreserveAttribute.cs" />
     <Compile Include="Assets\Plugins\Zenject\Source\Providers\PrefabProviders\PrefabProvider.cs" />
+    <Compile Include="Assets\Plugins\Zenject\Source\Internal\PreserveAttribute.cs" />
     <Compile Include="Assets\Plugins\Zenject\OptionalExtras\Signals\Internal\Binders\DeclareSignal\SignalDeclarationBindInfo.cs" />
     <Compile Include="Assets\Plugins\Zenject\Source\Binding\Binders\ConcreteBinders\ConcreteIdBinderGeneric.cs" />
     <Compile Include="Assets\Plugins\Zenject\OptionalExtras\Signals\Internal\Binders\DeclareSignal\DeclareSignalAsyncTickPriorityCopyBinder.cs" />

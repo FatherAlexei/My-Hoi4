@@ -15,7 +15,7 @@ D:/Unity Projects/My HOi4
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49830
+54320
 Successfully changed project path to: D:/Unity Projects/My HOi4
 D:/Unity Projects/My HOi4
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ D:/Unity Projects/My HOi4
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [39616] Host "[IP] 26.58.99.193 [Port] 0 [Flags] 2 [Guid] 2102989194 [EditorId] 2102989194 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-U8R75PH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [34448] Host "[IP] 26.58.99.193 [Port] 0 [Flags] 2 [Guid] 373414835 [EditorId] 373414835 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-U8R75PH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [39616] Host "[IP] 26.58.99.193 [Port] 0 [Flags] 2 [Guid] 2102989194 [EditorId] 2102989194 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-U8R75PH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [34448] Host "[IP] 26.58.99.193 [Port] 0 [Flags] 2 [Guid] 373414835 [EditorId] 373414835 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-U8R75PH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 6.27 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 6.19 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.4f1 (35713cd46cd7)
 [Subsystems] Discovering subsystems at path D:/Unity Editor/2022.3.4f1/Editor/Data/Resources/UnitySubsystems
@@ -69,51 +69,51 @@ Initialize mono
 Mono path[0] = 'D:/Unity Editor/2022.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56876
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56260
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity Editor/2022.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: D:/Unity Editor/2022.3.4f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: D:/Unity Editor/2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005215 seconds.
-- Loaded All Assemblies, in  0.232 seconds
+Registered in 0.004306 seconds.
+- Loaded All Assemblies, in  0.206 seconds
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 227 ms
+Android Extension - Scanning For ADB Devices 222 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.434 seconds
-Domain Reload Profiling: 666ms
-	BeginReloadAssembly (77ms)
+- Finished resetting the current domain, in  0.417 seconds
+Domain Reload Profiling: 623ms
+	BeginReloadAssembly (61ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (36ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (31ms)
 	LoadAllAssembliesAndSetupDomain (84ms)
-		LoadAssemblies (77ms)
+		LoadAssemblies (62ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (81ms)
-			TypeCache.Refresh (81ms)
+			TypeCache.Refresh (80ms)
 				TypeCache.ScanAssembly (73ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (434ms)
+	FinalizeReload (417ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (399ms)
+		SetupLoadedEditorAssemblies (384ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (301ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (298ms)
+			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (67ms)
-			ProcessInitializeOnLoadMethodAttributes (27ms)
+			ProcessInitializeOnLoadAttributes (56ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -123,53 +123,53 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\My HOi4\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\My HOi4\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.607 seconds
-Refreshing native plugins compatible for Editor in 2.04 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.520 seconds
+Refreshing native plugins compatible for Editor in 2.10 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.300 seconds
-Domain Reload Profiling: 907ms
+- Finished resetting the current domain, in  0.312 seconds
+Domain Reload Profiling: 832ms
 	BeginReloadAssembly (95ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (19ms)
-	RebuildCommonClasses (18ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (464ms)
-		LoadAssemblies (322ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (372ms)
+		LoadAssemblies (215ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (195ms)
-			TypeCache.Refresh (180ms)
-				TypeCache.ScanAssembly (171ms)
+		AnalyzeDomain (208ms)
+			TypeCache.Refresh (193ms)
+				TypeCache.ScanAssembly (183ms)
 			ScanForSourceGeneratedMonoScriptInfo (11ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (300ms)
+	FinalizeReload (312ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (208ms)
+		SetupLoadedEditorAssemblies (214ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (17ms)
+			InitializePlatformSupportModulesInManaged (20ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (36ms)
-			ProcessInitializeOnLoadAttributes (140ms)
-			ProcessInitializeOnLoadMethodAttributes (10ms)
+			BeforeProcessingInitializeOnLoad (34ms)
+			ProcessInitializeOnLoadAttributes (144ms)
+			ProcessInitializeOnLoadMethodAttributes (12ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (3ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 1.90 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.74 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4060 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 40 unused Assets / (61.7 KB). Loaded Objects now: 4524.
-Memory consumption went from 157.9 MB to 157.9 MB.
-Total: 2.578500 ms (FindLiveObjects: 0.239700 ms CreateObjectMapping: 0.053500 ms MarkObjects: 2.169100 ms  DeleteObjects: 0.115500 ms)
+Unloading 4071 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (61.7 KB). Loaded Objects now: 4535.
+Memory consumption went from 157.9 MB to 157.8 MB.
+Total: 2.451300 ms (FindLiveObjects: 0.320200 ms CreateObjectMapping: 0.136800 ms MarkObjects: 1.887000 ms  DeleteObjects: 0.106800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -177,227 +177,191 @@ AssetImportParameters requested are different than current active one (requested
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/precompiled-assembly-types:Abstraction: 243ae8e08090a2d7a51dd7c272f4c7ef -> 44822eb9ed8a4ae85ed852bdb5edd87c
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/precompiled-assembly-types:Core: a0a665b58ddf83797e71aeb9c461f1a4 -> c378d18e007c733521113c6892723d2a
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 282812.416844 seconds.
-  path: Assets/Scripts/Abstraction/IIconHolder.cs
-  artifactKey: Guid(e5e96459276052a46a87a0f5035e3f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Abstraction/IIconHolder.cs using Guid(e5e96459276052a46a87a0f5035e3f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd15e4d71b46e3c5223754140199b61c8') in 0.001896 seconds
+  Time since last request: 287566.637258 seconds.
+  path: Assets/Scripts/Abstraction/IFactionMember.cs
+  artifactKey: Guid(4c69e54b67fa38a4693ef90192c6afa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Abstraction/IFactionMember.cs using Guid(4c69e54b67fa38a4693ef90192c6afa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5881aac6f59d1d0906c2a2f4b395b4bc') in 0.001796 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 14.471766 seconds.
-  path: Assets/Scripts/Abstraction/Abstraction.asmdef
-  artifactKey: Guid(820bfb045d9804846804cc5bfa7d206d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Abstraction/Abstraction.asmdef using Guid(820bfb045d9804846804cc5bfa7d206d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8e8389208784d0ce4f25c2e094515f6') in 0.000357 seconds
+  Time since last request: 12.399115 seconds.
+  path: Assets/Scripts/Core/FactionMember.cs
+  artifactKey: Guid(10d79a7f8343bad449c55422f118a123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Core/FactionMember.cs using Guid(10d79a7f8343bad449c55422f118a123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acff55c6928d5e185832dbd071492395') in 0.000313 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 73.063464 seconds.
-  path: Assets/Scripts/Abstraction/Commands/Commands.asmdef
-  artifactKey: Guid(a22d6fa46e46a3d498efb0c50db659e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Abstraction/Commands/Commands.asmdef using Guid(a22d6fa46e46a3d498efb0c50db659e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c23d24f217a177acbf2bce27bfce39a4') in 0.000336 seconds
+  Time since last request: 5.537090 seconds.
+  path: Assets/Scripts/Core/FactionMember.cs
+  artifactKey: Guid(10d79a7f8343bad449c55422f118a123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Core/FactionMember.cs using Guid(10d79a7f8343bad449c55422f118a123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51c6107b0b0a8169e00509e4770b7996') in 0.000370 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 7.187705 seconds.
-  path: Assets/Scripts/Abstraction/Commands/Commands.asmdef
-  artifactKey: Guid(a22d6fa46e46a3d498efb0c50db659e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Abstraction/Commands/Commands.asmdef using Guid(a22d6fa46e46a3d498efb0c50db659e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64ebca54ab57346cdbafb5a6dd65db54') in 0.000326 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 83.355793 seconds.
-  path: Assets/Scripts/Core/Core.asmdef
-  artifactKey: Guid(d2392b44734a34e4b862f389389e3f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Core/Core.asmdef using Guid(d2392b44734a34e4b862f389389e3f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21f9edbe8b5b4a22155168628ffa9e18') in 0.000335 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 20.846074 seconds.
-  path: Assets/Scripts/Core/CommadExecutors/CommandExecutors.asmdef
-  artifactKey: Guid(1b428bd19499ffe429aeb23424d40568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Core/CommadExecutors/CommandExecutors.asmdef using Guid(1b428bd19499ffe429aeb23424d40568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92cce6cb13c8e1844934675a445dcf61') in 0.000306 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 13.386227 seconds.
-  path: Assets/Scripts/Core/CommadExecutors/CommandExecutors.asmdef
-  artifactKey: Guid(1b428bd19499ffe429aeb23424d40568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Core/CommadExecutors/CommandExecutors.asmdef using Guid(1b428bd19499ffe429aeb23424d40568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75110b74a3898906ed6498316cae7c5f') in 0.000342 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 44.385400 seconds.
-  path: Assets/Scripts/Core/CommadExecutors/CommandExecutors.asmdef
-  artifactKey: Guid(1b428bd19499ffe429aeb23424d40568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Core/CommadExecutors/CommandExecutors.asmdef using Guid(1b428bd19499ffe429aeb23424d40568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df18674a13a9d7124ab269b866ca45be') in 0.000448 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 29.284444 seconds.
+  Time since last request: 511.196080 seconds.
   path: Assets/Scripts/Core/CommadExecutors/ProduceUnitCommandExecutor.cs
   artifactKey: Guid(0737bb61c6f42ab46897a270c8f69374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Core/CommadExecutors/ProduceUnitCommandExecutor.cs using Guid(0737bb61c6f42ab46897a270c8f69374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c000599571dd89300f247b0bfcb8f7d') in 0.000351 seconds
+Start importing Assets/Scripts/Core/CommadExecutors/ProduceUnitCommandExecutor.cs using Guid(0737bb61c6f42ab46897a270c8f69374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e5a33bb04c32985d0c5bd4c327c3ea') in 0.000418 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 69.869029 seconds.
-  path: Assets/Scripts/Abstraction/Commands/IComandExecuter.cs
-  artifactKey: Guid(0245bb012d8932b4ab995a98b59b4e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Abstraction/Commands/IComandExecuter.cs using Guid(0245bb012d8932b4ab995a98b59b4e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d65dc8a5ee2d535a8fff986b4333bcb') in 0.000531 seconds
+  Time since last request: 56.087468 seconds.
+  path: Assets/AnimatorControllers/ChomperAnimatorController.controller
+  artifactKey: Guid(d70dd936e1a312047bd70b575fd66dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimatorControllers/ChomperAnimatorController.controller using Guid(d70dd936e1a312047bd70b575fd66dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9622a58a5d38a85d5d210a0061a90ce') in 0.008351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 110.096379 seconds.
+  path: Assets/Scripts/Abstraction/IAttackable.cs
+  artifactKey: Guid(1ca5f22ce5809874e84a10a8066c3752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Abstraction/IAttackable.cs using Guid(1ca5f22ce5809874e84a10a8066c3752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62ec6f38cd8ed77d170896d4a8aaf198') in 0.000384 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 2.785524 seconds.
-  path: Assets/Scripts/Abstraction/Commands/IComandExecuter.cs
-  artifactKey: Guid(0245bb012d8932b4ab995a98b59b4e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Abstraction/Commands/IComandExecuter.cs using Guid(0245bb012d8932b4ab995a98b59b4e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddf553f34b0799453b9b52650c3465ee') in 0.000334 seconds
+  Time since last request: 3.937325 seconds.
+  path: Assets/Scripts/Abstraction/IAttackable.cs
+  artifactKey: Guid(1ca5f22ce5809874e84a10a8066c3752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Abstraction/IAttackable.cs using Guid(1ca5f22ce5809874e84a10a8066c3752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef91170baedbc2cb0df840d3a9b3ec5d') in 0.000313 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 44.905802 seconds.
-  path: Assets/Scripts/UserControllerSystem/UI/View/View.asmdef
-  artifactKey: Guid(554e0454cb92a234ba6e306bea48722f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UserControllerSystem/UI/View/View.asmdef using Guid(554e0454cb92a234ba6e306bea48722f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e33eb3b3eeb1792715eff842bc1dcef4') in 0.000338 seconds
+  Time since last request: 19.030200 seconds.
+  path: Assets/Scripts/Core/MainBuilding.cs
+  artifactKey: Guid(32d70a5850a649b4e89e14a8435074a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Core/MainBuilding.cs using Guid(32d70a5850a649b4e89e14a8435074a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a89145f03931e88656625515c6496de') in 0.000324 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 9.702121 seconds.
-  path: Assets/Scripts/UserControllerSystem/UI/View/View.asmdef
-  artifactKey: Guid(554e0454cb92a234ba6e306bea48722f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UserControllerSystem/UI/View/View.asmdef using Guid(554e0454cb92a234ba6e306bea48722f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '730d5dfc09cd3361f4327d130215593f') in 0.000317 seconds
+  Time since last request: 65.971855 seconds.
+  path: Assets/Prrefab/MainBulding Variant.prefab
+  artifactKey: Guid(7a2261e0c1698f44b8047a936bec22e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prrefab/MainBulding Variant.prefab using Guid(7a2261e0c1698f44b8047a936bec22e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3ca2c835560a98a9dc2105b2e098c40') in 0.589148 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 47
 ========================================================================
 Received Import Request.
-  Time since last request: 34.582476 seconds.
-  path: Assets/Scripts/UserControllerSystem/UI/Presenter/Presenter.asmdef
-  artifactKey: Guid(8bd8f6316e47e8c4cabc075a6a1587d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UserControllerSystem/UI/Presenter/Presenter.asmdef using Guid(8bd8f6316e47e8c4cabc075a6a1587d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c57c26dc87c5269431be6aa76b508a3') in 0.000351 seconds
+  Time since last request: 5.551428 seconds.
+  path: Assets/Prrefab/Chomper.prefab
+  artifactKey: Guid(11266fcb83aea1e478dca65336a98d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prrefab/Chomper.prefab using Guid(11266fcb83aea1e478dca65336a98d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a6726fff70e6fabd2938c075d3f4600') in 0.318152 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 645
 ========================================================================
 Received Import Request.
-  Time since last request: 95.475390 seconds.
-  path: Assets/Scenes/SampleScene
-  artifactKey: Guid(3b67fc0b63894f148b0a51729f637d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene using Guid(3b67fc0b63894f148b0a51729f637d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa5cacff7917fce7d1f4181a915128ac') in 0.023486 seconds
+  Time since last request: 33.644007 seconds.
+  path: Assets/Prrefab/Chomper.prefab
+  artifactKey: Guid(11266fcb83aea1e478dca65336a98d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prrefab/Chomper.prefab using Guid(11266fcb83aea1e478dca65336a98d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed2bde27a9f5589acee5d30b08ea082b') in 0.018839 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 645
 ========================================================================
 Received Import Request.
-  Time since last request: 52.181329 seconds.
-  path: Assets/Scripts/UserControllerSystem/UI/Model/BottomCenterModel.cs
-  artifactKey: Guid(637f0a3a124029c4bbe79b06d1b44276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UserControllerSystem/UI/Model/BottomCenterModel.cs using Guid(637f0a3a124029c4bbe79b06d1b44276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06a2068bb90a3775a315c4e4ae22ee8b') in 0.000355 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 88.608802 seconds.
-  path: Assets/Scripts/Core/CommandExecuterBase.cs
-  artifactKey: Guid(118a67230f094244f8869dcb6e1447f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Core/CommandExecuterBase.cs using Guid(118a67230f094244f8869dcb6e1447f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3b116e08670d2d42c8784f417bcd8e8') in 0.000358 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 11.125916 seconds.
-  path: Assets/Scripts/Core/Core.asmdef
-  artifactKey: Guid(d2392b44734a34e4b862f389389e3f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Core/Core.asmdef using Guid(d2392b44734a34e4b862f389389e3f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cb77e08c548e0cf5206584b8f64740f') in 0.000356 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 42.038524 seconds.
+  Time since last request: 16.810918 seconds.
   path: Assets/Scripts/Core/Chomper.cs
   artifactKey: Guid(037796bedf833ea4faee6246b063b226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Core/Chomper.cs using Guid(037796bedf833ea4faee6246b063b226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f37d40262c4dc3c5a7efa28632425d3') in 0.000305 seconds
+Start importing Assets/Scripts/Core/Chomper.cs using Guid(037796bedf833ea4faee6246b063b226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c34713f87ba4e987ab30496aa8c8de13') in 0.000414 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 49.472797 seconds.
-  path: Assets/Scripts/Core/CommandExecuterBase.cs
-  artifactKey: Guid(118a67230f094244f8869dcb6e1447f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Core/CommandExecuterBase.cs using Guid(118a67230f094244f8869dcb6e1447f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ae032d387cf5608eda3eec5105680dd') in 0.000316 seconds
+  Time since last request: 15.671014 seconds.
+  path: Assets/Scripts/Abstraction/IDamageDealer.cs
+  artifactKey: Guid(96112d6432a63034caf620fb7a4dae3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Abstraction/IDamageDealer.cs using Guid(96112d6432a63034caf620fb7a4dae3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e61233ba9446abacba44d9bc8b98710') in 0.000340 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 3.712210 seconds.
-  path: Assets/Scripts/Core/CommandExecuterBase.cs
-  artifactKey: Guid(118a67230f094244f8869dcb6e1447f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Core/CommandExecuterBase.cs using Guid(118a67230f094244f8869dcb6e1447f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9f3b0973faac1f846ef0ac3aa104f7a') in 0.000335 seconds
+  Time since last request: 8.076394 seconds.
+  path: Assets/Scripts/Abstraction/IDamageDealer.cs
+  artifactKey: Guid(96112d6432a63034caf620fb7a4dae3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Abstraction/IDamageDealer.cs using Guid(96112d6432a63034caf620fb7a4dae3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '960134f32859e0e7eca9fea6f16a9be4') in 0.000347 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 344.426862 seconds.
-  path: Assets/Scripts/Core/CommadExecutors/MoveCommandExecutor.cs
-  artifactKey: Guid(fe744fac89864534d818060510540e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Core/CommadExecutors/MoveCommandExecutor.cs using Guid(fe744fac89864534d818060510540e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '027422ea97d1b394df4c2a3eae3f4fad') in 0.000388 seconds
+  Time since last request: 42.399049 seconds.
+  path: Assets/Scripts/Core/CommadExecutors/AttackCommandExecutor1.cs
+  artifactKey: Guid(e0e3cc972ab3fc94897c7080180b177a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Core/CommadExecutors/AttackCommandExecutor1.cs using Guid(e0e3cc972ab3fc94897c7080180b177a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03c1fd6be92179b212dc190b429762e7') in 0.000332 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 80.200185 seconds.
-  path: Assets/Scripts/Core/CommandExecuterBase.cs
-  artifactKey: Guid(118a67230f094244f8869dcb6e1447f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Core/CommandExecuterBase.cs using Guid(118a67230f094244f8869dcb6e1447f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87fb7267f8a72c6b488a1a59622f60ef') in 0.000320 seconds
+  Time since last request: 24.801236 seconds.
+  path: Assets/Scripts/Core/CommadExecutors/AttackCommandExecutor1.cs
+  artifactKey: Guid(e0e3cc972ab3fc94897c7080180b177a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Core/CommadExecutors/AttackCommandExecutor1.cs using Guid(e0e3cc972ab3fc94897c7080180b177a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aacd8142b044bf466d19430531884b2b') in 0.000324 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 10.186910 seconds.
-  path: Assets/Scripts/Core/CommandExecuterBase.cs
-  artifactKey: Guid(118a67230f094244f8869dcb6e1447f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Core/CommandExecuterBase.cs using Guid(118a67230f094244f8869dcb6e1447f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e2f2f7cc0b06c3df378d93693078432') in 0.000347 seconds
+  Time since last request: 49.585110 seconds.
+  path: Assets/Scripts/Core/CommadExecutors/AttackCommandExecutor2.cs
+  artifactKey: Guid(ac61794e03ea7804bb4549e784786bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Core/CommadExecutors/AttackCommandExecutor2.cs using Guid(ac61794e03ea7804bb4549e784786bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b31e2a4befd76f903872f9df93cd1fc') in 0.000379 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 301.466297 seconds.
-  path: Assets/Scripts/Core/CommadExecutors/AttackCommandExecutor.cs
-  artifactKey: Guid(213909abe654e47478b675c5597fa401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Core/CommadExecutors/AttackCommandExecutor.cs using Guid(213909abe654e47478b675c5597fa401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa6d14a5860a9a6c57babd7420da8e87') in 0.000406 seconds
+  Time since last request: 23.749782 seconds.
+  path: Assets/Scripts/Core/CommadExecutors/AttackCommandExecutor2.cs
+  artifactKey: Guid(ac61794e03ea7804bb4549e784786bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Core/CommadExecutors/AttackCommandExecutor2.cs using Guid(ac61794e03ea7804bb4549e784786bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'add111a7ff45c11d1300cc0ae8af5e3b') in 0.000358 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 4.979219 seconds.
-  path: Assets/Scripts/Abstraction/Commands/IComandExecuter.cs
-  artifactKey: Guid(0245bb012d8932b4ab995a98b59b4e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Abstraction/Commands/IComandExecuter.cs using Guid(0245bb012d8932b4ab995a98b59b4e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6e7b2b2fa9df30fbcf826db54dfff3f') in 0.000323 seconds
+  Time since last request: 18.517331 seconds.
+  path: Assets/Scripts/Core/ChomperInstaller.cs
+  artifactKey: Guid(03963cd0667202a40a749edb3dac7f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Core/ChomperInstaller.cs using Guid(03963cd0667202a40a749edb3dac7f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43ffa6ea6023afdcef327bfa4798b99b') in 0.000469 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 457.416506 seconds.
-  path: Assets/Scripts/Abstraction/Commands/IComandExecuter.cs
-  artifactKey: Guid(0245bb012d8932b4ab995a98b59b4e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Abstraction/Commands/IComandExecuter.cs using Guid(0245bb012d8932b4ab995a98b59b4e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92f027fdfcc98246ffa50f83463d513c') in 0.000401 seconds
+  Time since last request: 10.702835 seconds.
+  path: Assets/Scripts/Core/ChomperInstaller.cs
+  artifactKey: Guid(03963cd0667202a40a749edb3dac7f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Core/ChomperInstaller.cs using Guid(03963cd0667202a40a749edb3dac7f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e6b757c862e2f26f5e092ab74ba9ec') in 0.000333 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0

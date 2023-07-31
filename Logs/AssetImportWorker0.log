@@ -15,7 +15,7 @@ D:/Unity Projects/My HOi4
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52360
+64648
 Successfully changed project path to: D:/Unity Projects/My HOi4
 D:/Unity Projects/My HOi4
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ D:/Unity Projects/My HOi4
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [47388] Host "[IP] 26.58.99.193 [Port] 0 [Flags] 2 [Guid] 1367298952 [EditorId] 1367298952 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-U8R75PH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [14440] Host "[IP] 26.58.99.193 [Port] 0 [Flags] 2 [Guid] 1978491314 [EditorId] 1978491314 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-U8R75PH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [47388] Host "[IP] 26.58.99.193 [Port] 0 [Flags] 2 [Guid] 1367298952 [EditorId] 1367298952 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-U8R75PH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [14440] Host "[IP] 26.58.99.193 [Port] 0 [Flags] 2 [Guid] 1978491314 [EditorId] 1978491314 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-U8R75PH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 10.28 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 7.49 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.4f1 (35713cd46cd7)
 [Subsystems] Discovering subsystems at path D:/Unity Editor/2022.3.4f1/Editor/Data/Resources/UnitySubsystems
@@ -69,51 +69,51 @@ Initialize mono
 Mono path[0] = 'D:/Unity Editor/2022.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity Editor/2022.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56928
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56964
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity Editor/2022.3.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: D:/Unity Editor/2022.3.4f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: D:/Unity Editor/2022.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004054 seconds.
-- Loaded All Assemblies, in  0.203 seconds
+Registered in 0.003709 seconds.
+- Loaded All Assemblies, in  0.208 seconds
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 202 ms
+Android Extension - Scanning For ADB Devices 190 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.415 seconds
-Domain Reload Profiling: 618ms
-	BeginReloadAssembly (59ms)
+- Finished resetting the current domain, in  0.383 seconds
+Domain Reload Profiling: 591ms
+	BeginReloadAssembly (54ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
+		CreateAndSetChildDomain (0ms)
 	RebuildCommonClasses (20ms)
-	RebuildNativeTypeToScriptingClass (7ms)
+	RebuildNativeTypeToScriptingClass (6ms)
 	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (86ms)
-		LoadAssemblies (60ms)
+	LoadAllAssembliesAndSetupDomain (98ms)
+		LoadAssemblies (55ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (83ms)
-			TypeCache.Refresh (82ms)
-				TypeCache.ScanAssembly (75ms)
+		AnalyzeDomain (95ms)
+			TypeCache.Refresh (95ms)
+				TypeCache.ScanAssembly (87ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (416ms)
+	FinalizeReload (383ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (383ms)
+		SetupLoadedEditorAssemblies (350ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (296ms)
+			InitializePlatformSupportModulesInManaged (268ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (57ms)
-			ProcessInitializeOnLoadMethodAttributes (25ms)
+			ProcessInitializeOnLoadAttributes (52ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -123,83 +123,54 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\My HOi4\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\My HOi4\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.441 seconds
-Refreshing native plugins compatible for Editor in 2.82 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.495 seconds
+Refreshing native plugins compatible for Editor in 2.03 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.303 seconds
-Domain Reload Profiling: 744ms
-	BeginReloadAssembly (78ms)
+- Finished resetting the current domain, in  0.297 seconds
+Domain Reload Profiling: 793ms
+	BeginReloadAssembly (89ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (17ms)
-	RebuildCommonClasses (19ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (20ms)
 	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (21ms)
-	LoadAllAssembliesAndSetupDomain (318ms)
-		LoadAssemblies (166ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (357ms)
+		LoadAssemblies (197ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (192ms)
-			TypeCache.Refresh (179ms)
-				TypeCache.ScanAssembly (170ms)
+		AnalyzeDomain (209ms)
+			TypeCache.Refresh (195ms)
+				TypeCache.ScanAssembly (186ms)
 			ScanForSourceGeneratedMonoScriptInfo (10ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (303ms)
+	FinalizeReload (298ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (208ms)
+		SetupLoadedEditorAssemblies (206ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (18ms)
+			InitializePlatformSupportModulesInManaged (16ms)
 			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (41ms)
-			ProcessInitializeOnLoadAttributes (136ms)
-			ProcessInitializeOnLoadMethodAttributes (10ms)
-			AfterProcessingInitializeOnLoad (2ms)
+			BeforeProcessingInitializeOnLoad (33ms)
+			ProcessInitializeOnLoadAttributes (141ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (3ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 2.15 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 2.14 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4060 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 40 unused Assets / (61.7 KB). Loaded Objects now: 4524.
-Memory consumption went from 157.7 MB to 157.7 MB.
-Total: 2.230400 ms (FindLiveObjects: 0.291900 ms CreateObjectMapping: 0.055300 ms MarkObjects: 1.780800 ms  DeleteObjects: 0.101800 ms)
+Unloading 4076 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (61.5 KB). Loaded Objects now: 4540.
+Memory consumption went from 157.8 MB to 157.7 MB.
+Total: 2.422300 ms (FindLiveObjects: 0.247300 ms CreateObjectMapping: 0.054200 ms MarkObjects: 1.975700 ms  DeleteObjects: 0.144200 ms)
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 284879.737641 seconds.
-  path: Assets/Scripts/Abstraction/Commands/IComandExecuter.cs
-  artifactKey: Guid(0245bb012d8932b4ab995a98b59b4e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Abstraction/Commands/IComandExecuter.cs using Guid(0245bb012d8932b4ab995a98b59b4e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f24cd9d9cee918e2aee8838854530556') in 0.001659 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 2.29 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 4524.
-Memory consumption went from 86.1 MB to 86.1 MB.
-Total: 2.353400 ms (FindLiveObjects: 0.368500 ms CreateObjectMapping: 0.078700 ms MarkObjects: 1.889500 ms  DeleteObjects: 0.016000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -214,377 +185,97 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 52.494682 seconds.
-  path: Assets/Scripts/Abstraction/Abstraction.asmdef
-  artifactKey: Guid(820bfb045d9804846804cc5bfa7d206d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Abstraction/Abstraction.asmdef using Guid(820bfb045d9804846804cc5bfa7d206d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8e8389208784d0ce4f25c2e094515f6') in 0.001878 seconds
+  Time since last request: 536008.417383 seconds.
+  path: Assets/Scripts/Core/CommadExecutors/PatrolCommandExecutor.cs
+  artifactKey: Guid(7b908505ad6c16c44968509a334680e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Core/CommadExecutors/PatrolCommandExecutor.cs using Guid(7b908505ad6c16c44968509a334680e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e98e0b21dd5eb17b7fdb56615cfcc45f') in 0.142439 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 18.911467 seconds.
-  path: Assets/Scripts/Core/CommandExecuterBase.cs
-  artifactKey: Guid(118a67230f094244f8869dcb6e1447f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Core/CommandExecuterBase.cs using Guid(118a67230f094244f8869dcb6e1447f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91c9316c8cac46fb7527585d382ca057') in 0.000310 seconds
+  Time since last request: 34.796648 seconds.
+  path: Assets/Scripts/Core/CommadExecutors/PatrolCommandExecutor.cs
+  artifactKey: Guid(7b908505ad6c16c44968509a334680e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Core/CommadExecutors/PatrolCommandExecutor.cs using Guid(7b908505ad6c16c44968509a334680e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80b24fed7ea407967c8d1b03dcb303a7') in 0.000379 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 134.513615 seconds.
-  path: Assets/Scripts/Abstraction/ICommandsQueue.cs
-  artifactKey: Guid(8a85762dc1f73124ba7eb692950b0201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Abstraction/ICommandsQueue.cs using Guid(8a85762dc1f73124ba7eb692950b0201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cce9db7efddaca35522d4d0bc5a91b8') in 0.000334 seconds
+  Time since last request: 28.537970 seconds.
+  path: Assets/Scripts/Abstraction/IGameStatus.cs
+  artifactKey: Guid(58973ec0e5f518544b6b2a9e3022470e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Abstraction/IGameStatus.cs using Guid(58973ec0e5f518544b6b2a9e3022470e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8053c1da1bcb1c8aa55d80454df48399') in 0.000334 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 8.243225 seconds.
-  path: Assets/Scripts/Abstraction/ICommandsQueue.cs
-  artifactKey: Guid(8a85762dc1f73124ba7eb692950b0201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Abstraction/ICommandsQueue.cs using Guid(8a85762dc1f73124ba7eb692950b0201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d9f1ec70039db8e11970562a654d8fa') in 0.000415 seconds
+  Time since last request: 7.077176 seconds.
+  path: Assets/Scripts/Abstraction/IGameStatus.cs
+  artifactKey: Guid(58973ec0e5f518544b6b2a9e3022470e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Abstraction/IGameStatus.cs using Guid(58973ec0e5f518544b6b2a9e3022470e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f2259ae671e74a1f466a83f60c710c7') in 0.000310 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 24.684030 seconds.
-  path: Assets/Scripts/Core/ChomperCommandsQueue.cs
-  artifactKey: Guid(a171b86d71b5a784bb2a5678bc6ca140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Core/ChomperCommandsQueue.cs using Guid(a171b86d71b5a784bb2a5678bc6ca140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a59bd1d1aa313546fce2df5fb7aef3a5') in 0.000351 seconds
+  Time since last request: 44.008329 seconds.
+  path: Assets/Scripts/Core/FactionMember.cs
+  artifactKey: Guid(10d79a7f8343bad449c55422f118a123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Core/FactionMember.cs using Guid(10d79a7f8343bad449c55422f118a123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29b9dcd16de455462f1e4e7c122fca90') in 0.000327 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 60.352989 seconds.
-  path: Assets/Scripts/Abstraction/Commands/ICommand.cs
-  artifactKey: Guid(b966cfeb4bc737340bb3ca24a1aea68c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Abstraction/Commands/ICommand.cs using Guid(b966cfeb4bc737340bb3ca24a1aea68c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee320a9de8c9eace0e944892b3d17673') in 0.000341 seconds
+  Time since last request: 16.703402 seconds.
+  path: Assets/Scripts/Core/GameStatus.cs
+  artifactKey: Guid(b8b1d72de4e5e944fa61669725edbefe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Core/GameStatus.cs using Guid(b8b1d72de4e5e944fa61669725edbefe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40b61c5aa54148646130c1c6e9018965') in 0.000316 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 52.211184 seconds.
-  path: Assets/Scripts/Utils/UniRxExtensions.cs
-  artifactKey: Guid(9c7c9bac5cf501f46b01f3b69825e09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Utils/UniRxExtensions.cs using Guid(9c7c9bac5cf501f46b01f3b69825e09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77d3536a736fd0ac14ff3828f1bf5460') in 0.000391 seconds
+  Time since last request: 12.350732 seconds.
+  path: Assets/Scripts/Core/GameStatus.cs
+  artifactKey: Guid(b8b1d72de4e5e944fa61669725edbefe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Core/GameStatus.cs using Guid(b8b1d72de4e5e944fa61669725edbefe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f708f28b8640d5b56561c2a1421e58b') in 0.000311 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 6.420907 seconds.
-  path: Assets/Scripts/Utils/UniRxExtensions.cs
-  artifactKey: Guid(9c7c9bac5cf501f46b01f3b69825e09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Utils/UniRxExtensions.cs using Guid(9c7c9bac5cf501f46b01f3b69825e09b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45dfd56bc1aab8a7a5283bdf85b62632') in 0.000345 seconds
+  Time since last request: 16.779642 seconds.
+  path: Assets/Scripts/Core/GameStatus.cs
+  artifactKey: Guid(b8b1d72de4e5e944fa61669725edbefe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Core/GameStatus.cs using Guid(b8b1d72de4e5e944fa61669725edbefe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ce0c21b4cba429b7ad4d2c77518d116') in 0.000317 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 29.818805 seconds.
-  path: Assets/Scripts/Core/MainBuildingCommandQueue.cs
-  artifactKey: Guid(a077614aa516c8c48973558e221d6c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Core/MainBuildingCommandQueue.cs using Guid(a077614aa516c8c48973558e221d6c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1e7a2a3e7677d04fce1fe05921c9e9a') in 0.000328 seconds
+  Time since last request: 125.825970 seconds.
+  path: Assets/Scripts/Core/UnitMovementStop.cs
+  artifactKey: Guid(8b861ddbcb8e7d246b358f845751c542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Core/UnitMovementStop.cs using Guid(8b861ddbcb8e7d246b358f845751c542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af14cb9dc8f660d9e3bcfc44c2385ef4') in 0.000331 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 6.120418 seconds.
-  path: Assets/Scripts/Core/MainBuildingCommandQueue.cs
-  artifactKey: Guid(a077614aa516c8c48973558e221d6c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Core/MainBuildingCommandQueue.cs using Guid(a077614aa516c8c48973558e221d6c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be2b042388676942cf4adfe24b74f604') in 0.000336 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 2.405002 seconds.
-  path: Assets/Scripts/Core/MainBuildingCommandQueue.cs
-  artifactKey: Guid(a077614aa516c8c48973558e221d6c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Core/MainBuildingCommandQueue.cs using Guid(a077614aa516c8c48973558e221d6c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64489b7dbd03a2ab0ae8c103236af37f') in 0.000311 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 12.326801 seconds.
-  path: Assets/Scripts/UserControllerSystem/UI/Presenter/CommandButtonsPresenter.cs
-  artifactKey: Guid(effa0ed60432a30438aa95ab65d327a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UserControllerSystem/UI/Presenter/CommandButtonsPresenter.cs using Guid(effa0ed60432a30438aa95ab65d327a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27130176f2e0397a351ab8f6d73fa8a0') in 0.000310 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 27.471578 seconds.
-  path: Assets/Scripts/UserControllerSystem/UI/Presenter/CommandButtonsPresenter.cs
-  artifactKey: Guid(effa0ed60432a30438aa95ab65d327a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UserControllerSystem/UI/Presenter/CommandButtonsPresenter.cs using Guid(effa0ed60432a30438aa95ab65d327a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0531dbc46bed0cce4eb0ff183cc5084f') in 0.000298 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 20.963358 seconds.
-  path: Assets/Scripts/UserControllerSystem/UI/View/CommandButtonsView.cs
-  artifactKey: Guid(6a6a098b872e39a48a1f8b31391a8068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UserControllerSystem/UI/View/CommandButtonsView.cs using Guid(6a6a098b872e39a48a1f8b31391a8068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0bc3854a8997935098b71658103db9d') in 0.000319 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 47.445483 seconds.
-  path: Assets/Scripts/UserControllerSystem/UI/View/CommandButtonsView.cs
-  artifactKey: Guid(6a6a098b872e39a48a1f8b31391a8068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UserControllerSystem/UI/View/CommandButtonsView.cs using Guid(6a6a098b872e39a48a1f8b31391a8068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b55dbb9ed698443d1d3fc0c63fd42c5') in 0.000330 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 4.436760 seconds.
-  path: Assets/Scripts/UserControllerSystem/UI/View/CommandButtonsView.cs
-  artifactKey: Guid(6a6a098b872e39a48a1f8b31391a8068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UserControllerSystem/UI/View/CommandButtonsView.cs using Guid(6a6a098b872e39a48a1f8b31391a8068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54b450ec37391eaa9af3db3a4e8a514b') in 0.000320 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 23.283951 seconds.
-  path: Assets/Scripts/UserControllerSystem/UI/View/CommandButtonsView.cs
-  artifactKey: Guid(6a6a098b872e39a48a1f8b31391a8068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UserControllerSystem/UI/View/CommandButtonsView.cs using Guid(6a6a098b872e39a48a1f8b31391a8068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef9a427af6fc886872eea02859a68fcb') in 0.000327 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 21.768852 seconds.
-  path: Assets/Scripts/UserControllerSystem/UI/View/CommandButtonsView.cs
-  artifactKey: Guid(6a6a098b872e39a48a1f8b31391a8068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UserControllerSystem/UI/View/CommandButtonsView.cs using Guid(6a6a098b872e39a48a1f8b31391a8068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ab42e5271833416260d74b32642efe8') in 0.000309 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 2.498493 seconds.
-  path: Assets/Scripts/UserControllerSystem/UI/View/CommandButtonsView.cs
-  artifactKey: Guid(6a6a098b872e39a48a1f8b31391a8068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UserControllerSystem/UI/View/CommandButtonsView.cs using Guid(6a6a098b872e39a48a1f8b31391a8068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2caf3fed9137ff30d04586f9fff83861') in 0.000311 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 30.908556 seconds.
-  path: Assets/Scripts/UserControllerSystem/UI/View/CommandButtonsView.cs
-  artifactKey: Guid(6a6a098b872e39a48a1f8b31391a8068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UserControllerSystem/UI/View/CommandButtonsView.cs using Guid(6a6a098b872e39a48a1f8b31391a8068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '869fbd8de6f4efdfe2f89f14d06f695a') in 0.000313 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 91.190600 seconds.
-  path: Assets/Scripts/UserControllerSystem/UI/Model/CommandButtonsModel.cs
-  artifactKey: Guid(9b72186a6b1da324bb81e3638cd9a9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UserControllerSystem/UI/Model/CommandButtonsModel.cs using Guid(9b72186a6b1da324bb81e3638cd9a9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9658769e99f3df6280567c699c373ccb') in 0.000390 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 5.383578 seconds.
-  path: Assets/Scripts/UserControllerSystem/UI/Model/CommandButtonsModel.cs
-  artifactKey: Guid(9b72186a6b1da324bb81e3638cd9a9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UserControllerSystem/UI/Model/CommandButtonsModel.cs using Guid(9b72186a6b1da324bb81e3638cd9a9b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b7bdba6b3f84a91e97552d0c14ac794') in 0.000313 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 105.268748 seconds.
-  path: Assets/Scripts/Utils/CommandExecutorsInstaller.cs
-  artifactKey: Guid(b44ac4ffbd855bd42aaef0eb4676b61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Utils/CommandExecutorsInstaller.cs using Guid(b44ac4ffbd855bd42aaef0eb4676b61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24715f9917895134f9d4e44b68645b72') in 0.000358 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 5.291813 seconds.
-  path: Assets/Scripts/Utils/CommandExecutorsInstaller.cs
-  artifactKey: Guid(b44ac4ffbd855bd42aaef0eb4676b61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Utils/CommandExecutorsInstaller.cs using Guid(b44ac4ffbd855bd42aaef0eb4676b61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b55a7105698f829fbd1c12d2533885') in 0.000310 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 12.319163 seconds.
-  path: Assets/Scripts/Utils/Utils.asmdef
-  artifactKey: Guid(a825afb47a794cf438bb22b89627c26e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Utils/Utils.asmdef using Guid(a825afb47a794cf438bb22b89627c26e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd150f59aa4230d255f65561794abba5a') in 0.000373 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 75.661103 seconds.
-  path: Assets/Scripts/Utils/Utils.asmdef
-  artifactKey: Guid(a825afb47a794cf438bb22b89627c26e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Utils/Utils.asmdef using Guid(a825afb47a794cf438bb22b89627c26e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a783d2baeed43ab792bd59cfeebb53dd') in 0.000359 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 174.582865 seconds.
-  path: Assets/Scripts/Core/ChomperCommandsQueue.cs
-  artifactKey: Guid(a171b86d71b5a784bb2a5678bc6ca140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Core/ChomperCommandsQueue.cs using Guid(a171b86d71b5a784bb2a5678bc6ca140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e53b46e820087be811e10e46d240826c') in 0.000382 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.792416 seconds.
-  path: Assets/Scripts/Core/Chomper.cs
-  artifactKey: Guid(037796bedf833ea4faee6246b063b226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Core/Chomper.cs using Guid(037796bedf833ea4faee6246b063b226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b4a2cba8f51efe5d0b1dec9c986f614') in 0.000325 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.184998 seconds.
+  Time since last request: 6.545841 seconds.
   path: Assets/Scripts/Core/CoreInstaller.cs
   artifactKey: Guid(392526db52d19074d9dfbe90dba15e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Core/CoreInstaller.cs using Guid(392526db52d19074d9dfbe90dba15e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa7e12aabfaed5c3328cf1cf018d23b3') in 0.000308 seconds
+Start importing Assets/Scripts/Core/CoreInstaller.cs using Guid(392526db52d19074d9dfbe90dba15e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '683cf2236cab85c31d86dfa38afe9517') in 0.000332 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 26.183239 seconds.
-  path: Assets/Plugins/Zenject/Source/Main/DiContainer.cs
-  artifactKey: Guid(de4283f91e0232a4897afd2a0af141bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Zenject/Source/Main/DiContainer.cs using Guid(de4283f91e0232a4897afd2a0af141bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a695accd7a641619249d94ffe48989a1') in 0.000339 seconds
+  Time since last request: 27.611739 seconds.
+  path: Assets/Scripts/UserControllerSystem/UI/Presenter/GameOverScreenPresenter.cs
+  artifactKey: Guid(8efa969da45d6084dbe8b551c5603b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UserControllerSystem/UI/Presenter/GameOverScreenPresenter.cs using Guid(8efa969da45d6084dbe8b551c5603b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '584d03a0d8329c4fc85166afc6228519') in 0.000331 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 11.989050 seconds.
-  path: Assets/Scripts/Core/CommadExecutors/ProduceUnitCommandExecutor.cs
-  artifactKey: Guid(0737bb61c6f42ab46897a270c8f69374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Core/CommadExecutors/ProduceUnitCommandExecutor.cs using Guid(0737bb61c6f42ab46897a270c8f69374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5caaef0697c94ad10afca587318ab06') in 0.000311 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 17.129180 seconds.
-  path: Assets/Scripts/Core/CommadExecutors/ProduceUnitCommandExecutor.cs
-  artifactKey: Guid(0737bb61c6f42ab46897a270c8f69374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Core/CommadExecutors/ProduceUnitCommandExecutor.cs using Guid(0737bb61c6f42ab46897a270c8f69374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7479ae70fd2cd5f3f96aee4644206192') in 0.000343 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 33.278666 seconds.
-  path: Assets/Scripts/Abstraction/ISetRallyPointCommand.cs
-  artifactKey: Guid(72aad5e0edaf8de4081ec2c85112a28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Abstraction/ISetRallyPointCommand.cs using Guid(72aad5e0edaf8de4081ec2c85112a28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '338846dfeda1079119e90e426ad57504') in 0.000345 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 4.591695 seconds.
-  path: Assets/Scripts/Abstraction/ISetRallyPointCommand.cs
-  artifactKey: Guid(72aad5e0edaf8de4081ec2c85112a28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Abstraction/ISetRallyPointCommand.cs using Guid(72aad5e0edaf8de4081ec2c85112a28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd734477e58b6f448d142988a3846e94') in 0.000322 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 16.491531 seconds.
-  path: Assets/Scripts/Core/SetRallyPointCommand.cs
-  artifactKey: Guid(2334623e8be63fb439aa455ba7ba8d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Core/SetRallyPointCommand.cs using Guid(2334623e8be63fb439aa455ba7ba8d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb1c2455bca01421cb63a4e96009e457') in 0.000314 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 4.400756 seconds.
-  path: Assets/Scripts/Core/SetRallyPointCommand.cs
-  artifactKey: Guid(2334623e8be63fb439aa455ba7ba8d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Core/SetRallyPointCommand.cs using Guid(2334623e8be63fb439aa455ba7ba8d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b60f86e3aa6859a299278ede1168b78a') in 0.000316 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 9.075927 seconds.
-  path: Assets/Scripts/Core/CommadExecutors/SetRallyPointCommandExecutor.cs
-  artifactKey: Guid(bae08e3cfec13ba42bc91aca2aa0fd5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Core/CommadExecutors/SetRallyPointCommandExecutor.cs using Guid(bae08e3cfec13ba42bc91aca2aa0fd5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29d8c901d084b70b5e9afa671ad9391b') in 0.000318 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 9.970908 seconds.
-  path: Assets/Scripts/Core/CommadExecutors/SetRallyPointCommandExecutor.cs
-  artifactKey: Guid(bae08e3cfec13ba42bc91aca2aa0fd5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Core/CommadExecutors/SetRallyPointCommandExecutor.cs using Guid(bae08e3cfec13ba42bc91aca2aa0fd5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c17d0e3e5c9e8ad7b7163b6109966836') in 0.000313 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 23.091402 seconds.
-  path: Assets/Scripts/Core/MainBuilding.cs
-  artifactKey: Guid(32d70a5850a649b4e89e14a8435074a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Core/MainBuilding.cs using Guid(32d70a5850a649b4e89e14a8435074a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46cb1691a3c1b7994484637a60885ef3') in 0.000320 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 5.209315 seconds.
-  path: Assets/Scripts/Core/MainBuilding.cs
-  artifactKey: Guid(32d70a5850a649b4e89e14a8435074a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Core/MainBuilding.cs using Guid(32d70a5850a649b4e89e14a8435074a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '744cad313dc75b2bea02ebba671d4d5a') in 0.000509 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 26.416954 seconds.
-  path: Assets/Scripts/UserControllerSystem/UI/Model/CommandCreators/SetRallyPointCommandCreator.cs
-  artifactKey: Guid(65c892ff78741c14f9d36b4bc420fdea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UserControllerSystem/UI/Model/CommandCreators/SetRallyPointCommandCreator.cs using Guid(65c892ff78741c14f9d36b4bc420fdea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11a32a7c53b3c79b8a167cf674eb09b8') in 0.000359 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 3.852407 seconds.
-  path: Assets/Scripts/UserControllerSystem/UI/Model/CommandCreators/SetRallyPointCommandCreator.cs
-  artifactKey: Guid(65c892ff78741c14f9d36b4bc420fdea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UserControllerSystem/UI/Model/CommandCreators/SetRallyPointCommandCreator.cs using Guid(65c892ff78741c14f9d36b4bc420fdea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28ccca5aab2e8d197b8f1bc3f97d69e1') in 0.000327 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 44.960495 seconds.
-  path: Assets/Scripts/Core/CommadExecutors/ProduceUnitCommandExecutor.cs
-  artifactKey: Guid(0737bb61c6f42ab46897a270c8f69374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Core/CommadExecutors/ProduceUnitCommandExecutor.cs using Guid(0737bb61c6f42ab46897a270c8f69374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e24208a1bff158937a224c4fad099c4') in 0.000336 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 21.888817 seconds.
-  path: Assets/Scripts/Utils/CollisionDetector.cs
-  artifactKey: Guid(3a685951ba878a145b3ef540a85ee246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Utils/CollisionDetector.cs using Guid(3a685951ba878a145b3ef540a85ee246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba214f858875b7899d8f5742a7f46858') in 0.000365 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 5.629950 seconds.
-  path: Assets/Scripts/Utils/CollisionDetector.cs
-  artifactKey: Guid(3a685951ba878a145b3ef540a85ee246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Utils/CollisionDetector.cs using Guid(3a685951ba878a145b3ef540a85ee246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48767849f9f0f00efb1dde2baf583158') in 0.000315 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 33.096798 seconds.
-  path: Assets/Scripts/Core/UnitMovementStop1.cs
-  artifactKey: Guid(4dc13b73bb34b6d41900feb25b3b159c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Core/UnitMovementStop1.cs using Guid(4dc13b73bb34b6d41900feb25b3b159c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ace9f7b483ff00c3231117f3c124c57') in 0.000363 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 60.527982 seconds.
-  path: Assets/Scripts/Core/UnitMovementStop1.cs
-  artifactKey: Guid(4dc13b73bb34b6d41900feb25b3b159c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Core/UnitMovementStop1.cs using Guid(4dc13b73bb34b6d41900feb25b3b159c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7daf0d837f65c724b8d00295e5c3db21') in 0.000313 seconds
+  Time since last request: 14.238839 seconds.
+  path: Assets/Scripts/UserControllerSystem/UI/Presenter/GameOverScreenPresenter.cs
+  artifactKey: Guid(8efa969da45d6084dbe8b551c5603b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UserControllerSystem/UI/Presenter/GameOverScreenPresenter.cs using Guid(8efa969da45d6084dbe8b551c5603b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f33b2819e31d8a4e35a977beecfffaf') in 0.000316 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0

@@ -19,10 +19,19 @@ public sealed class MainBuilding : ICommandExecuter<IProduceUnitCommand>, ISelec
         [SerializeField] private Sprite _icon;
          [SerializeField] private Transform _pivot;
          private float _health = 1000;
-        public override void ExecuteSpecificCommand(IProduceUnitCommand command)
+        public void RecieveDamage(int amount)
         {
-
+            if (_health <= 0)
+            {
+                return;
+            }
+            _health -= amount;
+            if (_health <= 0)
+            {
+                Destroy(gameObject);
+            }
         }
+
 
 
 }

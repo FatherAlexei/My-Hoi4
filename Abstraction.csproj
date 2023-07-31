@@ -59,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Abstraction\IUnitProductionTask.cs" />
+    <Compile Include="Assets\Scripts\Abstraction\IFactionMember.cs" />
     <Compile Include="Assets\Scripts\Abstraction\ISetRallyPointCommand.cs" />
     <Compile Include="Assets\Scripts\Abstraction\Commands\CommandsInterfaces\IProduceUnitCommand.cs" />
     <Compile Include="Assets\Scripts\Abstraction\IIconHolder.cs" />
@@ -69,9 +70,11 @@
     <Compile Include="Assets\Scripts\Abstraction\Commands\CommandsInterfaces\IStopCommand .cs" />
     <Compile Include="Assets\Scripts\Abstraction\Commands\CommandsInterfaces\IMoveCommand.cs" />
     <Compile Include="Assets\Scripts\Abstraction\Commands\CommandsInterfaces\IPatrolCommand.cs" />
+    <Compile Include="Assets\Scripts\Abstraction\IGameStatus.cs" />
     <Compile Include="Assets\Scripts\Abstraction\ITimeModel.cs" />
     <Compile Include="Assets\Scripts\Abstraction\IHealthHolder.cs" />
     <Compile Include="Assets\Scripts\Abstraction\Commands\CommandsInterfaces\IAttackCommand.cs" />
+    <Compile Include="Assets\Scripts\Abstraction\IDamageDealer.cs" />
     <Compile Include="Assets\Scripts\Abstraction\ISelectable.cs" />
     <Compile Include="Assets\Scripts\Abstraction\Commands\IComandExecuter.cs" />
     <Compile Include="Assets\Scripts\Abstraction\Commands\ICommand.cs" />

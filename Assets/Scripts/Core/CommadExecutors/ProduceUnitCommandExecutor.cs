@@ -45,7 +45,7 @@ ICommandExecuter<IProduceUnitCommand>, IUnitProducer
     public override void ExecuteSpecificCommand(IProduceUnitCommand
     command)
     {
-    _queue.Add(new UnitProductionTask(command.ProductionTime,
-    command.Icon, command.UnitPrefab, command.UnitName));
+        var factionMember = instance.GetComponent<FactionMember>();
+        factionMember.SetFaction(GetComponent<FactionMember>().FactionId);
     }
 }
