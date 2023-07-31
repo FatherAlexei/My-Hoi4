@@ -48,4 +48,5 @@ ICommandExecuter<IProduceUnitCommand>, IUnitProducer
         var factionMember = instance.GetComponent<FactionMember>();
         factionMember.SetFaction(GetComponent<FactionMember>().FactionId);
     }
+
 }

@@ -1,7 +1,7 @@
 using Abstractions;
 using UnityEngine;
 
-public class Chomper : MonoBehaviour, ISelectables, IAttackable, IDamageDealer
+public class Chomper : MonoBehaviour, ISelectables, IAttackable, IDamageDealer, IAutomaticAttacker
 {
 
     public float Health => _health;
@@ -19,6 +19,9 @@ public class Chomper : MonoBehaviour, ISelectables, IAttackable, IDamageDealer
     private float _health = 100;
     [SerializeField] private Animator _animator;
     [SerializeField] private StopCommandExecutor _stopCommand;
+
+    public float VisionRadius => _visionRadius;
+    [SerializeField] private float _visionRadius = 8f;
     public void RecieveDamage(int amount)
     {
         if (_health <= 0)

@@ -59,10 +59,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Core\ChomperInstaller.cs" />
+    <Compile Include="Assets\Scripts\Core\Deconstructors.cs" />
     <Compile Include="Assets\Scripts\Core\UnitProductionTask.cs" />
+    <Compile Include="Assets\Scripts\Core\AttackerParallelnfoUpdater.cs" />
+    <Compile Include="Assets\Scripts\Core\MainBuildingInstaller.cs" />
     <Compile Include="Assets\Scripts\Core\GameStatus.cs" />
     <Compile Include="Assets\Scripts\Core\CommadExecutors\AttackCommandExecutor2.cs" />
     <Compile Include="Assets\Scripts\Core\CommadExecutors\AttackCommandExecutor.cs" />
+    <Compile Include="Assets\Scripts\Core\FactionMemberParallelInfoUpdater.cs" />
     <Compile Include="Assets\Scripts\Core\CommadExecutors\MoveCommandExecutor.cs" />
     <Compile Include="Assets\Scripts\Core\CommadExecutors\SetRallyPointCommandExecutor.cs" />
     <Compile Include="Assets\Scripts\Core\ChomperCommandsQueue.cs" />
@@ -70,12 +74,15 @@
     <Compile Include="Assets\Scripts\Core\CommadExecutors\StopCommandExecutor.cs" />
     <Compile Include="Assets\Scripts\Core\MainBuilding.cs" />
     <Compile Include="Assets\Scripts\Core\UnitMovementStop.cs" />
+    <Compile Include="Assets\Scripts\Core\AutoAttackCommand.cs" />
     <Compile Include="Assets\Scripts\Core\CommadExecutors\AttackCommandExecutor1.cs" />
     <Compile Include="Assets\Scripts\Core\CoreInstaller.cs" />
+    <Compile Include="Assets\Scripts\Core\AutoAttackEvaluator.cs" />
     <Compile Include="Assets\Scripts\Core\CommadExecutors\PatrolCommandExecutor.cs" />
     <Compile Include="Assets\Scripts\Core\UnitMovementStop1.cs" />
     <Compile Include="Assets\Scripts\Core\FactionMember.cs" />
     <Compile Include="Assets\Scripts\Core\Chomper.cs" />
+    <Compile Include="Assets\Scripts\Core\AutoAttackAgent.cs" />
     <Compile Include="Assets\Scripts\Core\MainBuildingCommandQueue.cs" />
     <Compile Include="Assets\Scripts\Core\CommadExecutors\ProduceUnitCommandExecutor.cs" />
     <Compile Include="Assets\Scripts\Core\SetRallyPointCommand.cs" />

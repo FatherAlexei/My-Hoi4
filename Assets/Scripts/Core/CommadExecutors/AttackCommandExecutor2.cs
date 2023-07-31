@@ -59,11 +59,11 @@ public void Cancel()
                     ourPosition = _attackCommandExecutor._ourPosition;
                     ourRotation = _attackCommandExecutor._ourRotation;
                 }
-                var vector = targetPosition — ourPosition;
+                var vector = targetPosition - ourPosition;
                 var distanceToTarget = vector.magnitude;
                 if (distanceToTarget > _attackCommandExecutor._attackingDistance)
                 {
-                    var finalDestination = targetPosition — vector.normalized *
+                    var finalDestination = targetPosition - vector.normalized *
                     (_attackCommandExecutor._attackingDistance * 0.9f);
                     _attackCommandExecutor
                     ._targetPositions.OnNext(finalDestination);

@@ -12,7 +12,7 @@ public class MouseInteractionsPresenter : MonoBehaviour
     [SerializeField] private Camera _camera;
     [SerializeField] private SelectableValue _selectedObject;
     [SerializeField] private Vector3Value _groundClicksRMB;
-[SerializeField] private AttackableValue _attackablesRMB;
+    [SerializeField] private AttackableValue _attackablesRMB;
     [SerializeField] private Transform _groundTransform;
     private Plane _groundPlane;
     [Inject]

@@ -37,7 +37,7 @@ public class UnitMovementStop : MonoBehaviour, IAwaitable<AsyncExtensions.Void>
     {
         for (int i = 1; i < buffer.Count; i++)
         {
-            if (buffer[i] — buffer[i — 1] > _continuityThreshold)
+            if (buffer[i] - buffer[i - 1] > _continuityThreshold)
     {
             return false;
         }
